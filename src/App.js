@@ -1,12 +1,11 @@
-import './App.css';
+import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h2>Hello react!</h2>
+        <ExpenseItem></ExpenseItem>
       </header>
     </div>
   );
